@@ -120,51 +120,99 @@ try   void   volatile   while
 
 上述方法执行时都会堵塞，等待用户在命令行输入数据回车确认。
 
-例:           import java.util.*;
+例:         
 
-​		public class Example{
+```
+  import java.util.*;
 
-​			public static void main(String args[])
+		public class Example{
 
-​			{
+			public static void main(String args[])
 
-​				Scanner reader = new Scanner(System.in);
+			{
 
-​				double sum= 0;
+				Scanner reader = new Scanner(System.in);
 
-​				int m=0;	
+				double sum= 0;
 
-​				while(redaer.hasNextDouble())
+				int m=0;	
 
-​				{
+				while(redaer.hasNextDouble())
 
-​					double x=reader.nextDouble();
+				{
 
-​					m+=1;
+					double x=reader.nextDouble();
 
-​					sum+=x;
+					m+=1;
 
-​				}
+					sum+=x;
 
-​				System.out.printf("%d个数的和为：%f\n",m,sum);
+				}
 
-​				System.out.printf("%d个数的均值为：%f\n",m,sum/m);
+				System.out.printf("%d个数的和为：%f\n",m,sum);
 
-​			}
+				System.out.printf("%d个数的均值为：%f\n",m,sum/m);
 
-​		}
+			}
+
+		}
+```
+
+
 
 ### 5.数组
 
-​	与C语言不同的是，Java允许使用int类型变量指定数组的大小。例如：
+​	（1）与C语言不同的是，Java允许使用int类型变量指定数组的大小。例如：
 
 ​			int  size = 30;
 
 ​			double num[] = new double[size];
 
-​	与C/C++语言不同，Java不允许在声明数组中
+​	（2）与C/C++语言不同，Java不允许在声明数组中的方括号内指定数组元素的个数。若声明：
+
+​			int a[12];		或 		int [12]a;  
+
+​			将导致语法错误。
+
+​	（3）提倡使用“数组元素类型   [ ] 数组名字”格式声明数组，如 int [] a
+
+​	（4）length的使用	
+
+​		对于一维数组，”数组名字.length“的值就是数组中元素的个数；
+
+​		对于二维数组，”数组名字.length“的值是它含有的一维数组的个数。例如：
+
+​				float  [] a = new float [12];	a.length的值就是12；
+
+​				int \[][] b = new int\[3][6];  		b.length的值是3。
+
+​	（5）数组的引用
+
+​		1>数组属于引用型变量，因此两个相同类型的数组如果具有相同的引用，他们就有完全相同的元素。
+
+​			例如，对于
+
+​			int []a = {1,2,3}, b = {4,5};
+
+​			数组变量a和b分别存放着不同的引用。
+
+​			但是如果使用了赋值语句“a=b”；那么，此时a的元素和b的元素一致，a中存放的引用和b的相同。
+
+​		2>对于char型数组a，System.out.println(a)不会输出数组a的引用而是输出数组a的全部元素。
+
+​				如：对于char a[] = {'你','好','真','诚'};则System.out.println(a)的结果是“你好真诚”。
+
+​		    如果想输出char型数据的引用，必须让数组a和字符串做并置运算。
+
+​				例如：System.out.println(""+a)输出数组a的引用。
 
 ## 三、运算符、表达式和语句
+
+与C语言、C++里面大同小异，因此不做多余的解释，跳讲以下几类
+
+### 1.移位运算符、位运算符和条件运算符
+
+### 2.instanceof运算符
 
 ## 四、类和对象
 
