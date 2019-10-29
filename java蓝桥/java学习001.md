@@ -6,7 +6,7 @@
 ### 一、计算机软件系统分类：
 ​	系统软件、应用软件。
 
-![](C:\Users\dell\Pictures\Saved Pictures\xitong.png)
+![](./pic/xitong.png)
 
 
 
@@ -38,13 +38,12 @@
 
 ### 一、安装环节
 
-1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）![img](C:\Users\dell\Pictures\Saved Pictures\oracle)
+1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）
+![img](./pic/oracle)
 
+![img](./pic/java1)
 
-
-![img](C:\Users\dell\Pictures\Saved Pictures\java1)
-
-![img](C:\Users\dell\Pictures\Saved Pictures\java2)
+![img](./pic/java2)
 
 2.找到适合本机的jdk版本（注意32位还是64位），点击下载
 
