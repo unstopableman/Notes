@@ -28,7 +28,7 @@ Java基础语法：
 
 ​			语法： 接受类型  变量名 = （将要转换的类型）待转换变量
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013722140.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029013722140.png)
 
 ​			
 
@@ -88,19 +88,19 @@ Java基础语法：
 
 ​	对十进制的数字使用短除法，除数为2，一直到商为0，然后余数从下往上排列就是对应的二进制。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013745971.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029013745971.png)
 
 ​	如十进制的5对应的二进制就是 0000 0101
 
 ​	为什么要设计程原码 反码 补码  就在于计算机无法识别符号位  所以在运算中  将符号位也参与运算    只有加法没有减法 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019102901380627.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/2019102901380627.png)
 
 ## 4.十进制转八进制
 
 首先转换为二进制，然后三位2进制表示一位8进制。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013822302.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029013822302.png)
 
 
 
@@ -108,7 +108,7 @@ Java基础语法：
 
 四位二进制表示一位16进制。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013843258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029013843258.png)
 
 ## 6.不同进制的数据的表示
 
@@ -122,7 +122,7 @@ Java基础语法：
 
 System.out.println(bb1);输出时 所有的整数都按照int类型输出 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013907945.png)
+![在这里插入图片描述](assets/20191029013907945.png)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019102901392229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
 
@@ -173,20 +173,20 @@ boolean不能参与算数运算 boolean也不能和其他类型之间进行相�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029013938122.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029013938122.png)
 
 ​    赋值运算符
 
 ​    =  +=  -+ /=   %=
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029014022200.png)
+![在这里插入图片描述](assets/20191029014022200.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019102901404478.png)
 
 ​    ① 编译报错 结果是int  ②正确 += 会进行强制类型转换
 
 ​    比较运算
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191029014107640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/20191029014107640.png)
 
 比较运算的结果都是boolean类型  通常用于逻辑判断  注意不要将 == 误写为 = 
 
@@ -194,7 +194,7 @@ boolean不能参与算数运算 boolean也不能和其他类型之间进行相�
 
 &—逻辑与  | —逻辑或   ！—逻辑非   && —短路与   || —短路或   ^ —逻辑异或
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019102901412291.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzQxNzI5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](assets/2019102901412291.png)
 
 &运算中只要有false  结果就为false
 

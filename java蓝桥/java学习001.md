@@ -38,11 +38,13 @@
 
 ### 一、安装环节
 
-1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）![img](./assets/oracle)
+1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）
+
+![img](./assets/oracle)
 
 
 
-![img](.\assets\java1)
+![img](./assets/java1)
 
 ![img](C:\Users\dell\Pictures\Saved Pictures\java2)
 
