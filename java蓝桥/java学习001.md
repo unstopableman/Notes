@@ -42,7 +42,7 @@
 
 
 
-![img](C:\Users\dell\Pictures\Saved Pictures\java1)
+![img](.\assets\java1)
 
 ![img](C:\Users\dell\Pictures\Saved Pictures\java2)
 
