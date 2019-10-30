@@ -38,7 +38,7 @@
 
 ### 一、安装环节
 
-1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）![img](C:\Users\dell\Pictures\Saved Pictures\oracle)
+1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）![img](./assets/oracle)
 
 
 
