@@ -109,12 +109,10 @@ int[][] arr = new int[][]{{1,2,3},{4,5,6},{7,8,9},{3,5,9}};
 ```
 ## 二维数组的基本操作
 
-![image](E:/Github%E4%BB%93%E5%BA%93/Notes/java%E8%93%9D%E6%A1%A5/assets/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%841.png)
-
-## 二维数组的内存
 ![](assets/二维数组1.png)
 
-![image](E:/Github%E4%BB%93%E5%BA%93/Notes/java%E8%93%9D%E6%A1%A5/assets/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%842.png)
+## 二维数组的内存
+![](assets/二维数组2.png)
 
 ## 数组相关算法
     1.数组元素的赋值（杨辉三角等）
@@ -178,3 +176,9 @@ public class BinarySearch {
 
 ​    
 #  Math.round(s));//取数的整数部分且四舍五入
+
+
+
+![123](assets/123.png)
+
+![img](assets/20191103110544205.png) 
