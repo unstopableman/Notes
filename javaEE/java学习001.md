@@ -6,7 +6,7 @@
 ### 一、计算机软件系统分类：
 ​	系统软件、应用软件。
 
-![](C:\Users\dell\Pictures\Saved Pictures\xitong.png)
+![](./assets/xitong.png)
 
 
 
@@ -40,11 +40,13 @@
 
 1.打开官网（ [http://www.oracle.com](http://www.oracle.com/) ）
 
-![img](https://note.youdao.com/yws/public/resource/2d0dd624667c7465b2872449dba61398/xmlnote/A5595B6FFDE84C24A589929420C4A422/12662)
+![img](./assets/oracle)
 
-![img](https://note.youdao.com/yws/public/resource/2d0dd624667c7465b2872449dba61398/xmlnote/14561446F77F4D6FA9C0989FE908D350/12670)
 
-![img](https://note.youdao.com/yws/public/resource/2d0dd624667c7465b2872449dba61398/xmlnote/E5A0A0767E4C46869740E5C66558A598/12671)
+
+![img](./assets/java1)
+
+![img](C:\Users\dell\Pictures\Saved Pictures\java2)
 
 2.找到适合本机的jdk版本（注意32位还是64位），点击下载
 
@@ -53,5 +55,4 @@
 ### 二、环境配置
 
 配置环境变量path、java_home。具体不做赘述。
-
 
